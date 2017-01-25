@@ -1,0 +1,6 @@
+{
+  "extends": [ "./config/node.js", "./config/google.js", "./config/idiomatic.js" ],
+  "rules": {
+
+  }
+}

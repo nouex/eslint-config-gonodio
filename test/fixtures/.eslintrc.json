@@ -1,0 +1,6 @@
+{
+  "extends": "./.eslintrc2.json",
+  "rules": {
+    "no-console": 1
+  }
+}

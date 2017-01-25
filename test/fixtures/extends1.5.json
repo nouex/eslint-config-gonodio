@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "a": true
+  },
+  "extends": ["./test/fixtures/extends2.json", "./test/fixtures/extends3.json"]
+}

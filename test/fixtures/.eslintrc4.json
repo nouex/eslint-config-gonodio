@@ -1,0 +1,6 @@
+{
+  "rules": {
+  "no-prototype-builtins": 0
+},
+  "extends": ["./.eslintrc5.json", "./.eslintrc6.json"]
+}

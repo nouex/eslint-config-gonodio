@@ -1,0 +1,6 @@
+{
+  "extends": ["./.eslintrc3.json", "./.eslintrc4.json"],
+  "rules": {
+  "no-console": 2
+  }
+}
