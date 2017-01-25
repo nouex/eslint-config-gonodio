@@ -1,2 +1,3 @@
 vendor/eslint-config-*
 vendor/node-style-guide
+npm-debug.log
