@@ -4,3 +4,4 @@ Keep the 3 modules in node_modules and just require the name
 * consolidate tools/rules and add simple cli to log filtered results
 * use a deps/ for all three eslint config files
 * add much more coverage
+* use rules.js to dynamically generate a rules.md on each update that affects the rules

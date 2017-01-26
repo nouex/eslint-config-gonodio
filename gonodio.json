@@ -1,6 +1,54 @@
 {
   "extends": [ "./config/node.js", "./config/google.js", "./config/idiomatic.js" ],
   "rules": {
-
+    "brace-style": [2, "1tbs", {"allowSingleLine": true}],
+    "curly": 0,
+    "func-names": [2, "as-needed"],
+    "indent": [2, "tab"],
+    "linebreak-style": [2, "windows"],
+    "no-multi-spaces": [2, {"exceptions": {"ImportDeclaration": true, "VariableDeclarator": true, "Property": true}}],
+    "func-call-spacing": [2, "never"],
+    "object-curly-spacing": [2, "never"],
+    "quotes": [2, "double"],
+    "guard-for-in": 1,
+    "no-console": 1,
+    "no-extend-native": 1,
+    "no-extra-bind": 1,
+    "no-invalid-this": 1,
+    "no-multi-str": 1,
+    "no-new-wrappers": 1,
+    "no-throw-literal": 1,
+    "no-with": 1,
+    "camelcase": [2, {"properties": "always"}],
+    "comma-dangle": [2, "never"],
+    "max-len": [2, {
+      "code": 80,
+      "tabWidth": 2
+      }],
+    "no-array-constructor": 1,
+    "no-new-object": 1,
+    "one-var": [2, {
+      "var": "never",
+      "let": "never",
+      "const": "never"
+      }],
+    "arrow-parens": 0,
+    "constructor-super": 1,
+    "generator-star-spacing": [2, "before"],
+    "no-var": 1,
+    "prefer-rest-params": 1,
+    "prefer-spread": 1,
+    "yield-star-spacing": [2, "before"],
+    "eqeqeq": 0,
+    "max-statements": 0,
+    "no-use-before-define": 1,
+    "no-constant-condition": 1,
+    "no-debugger": 1,
+    "no-extra-boolean-cast": 0,
+    "no-invalid-regexp": 0,
+    "no-delete-var": 1,
+    "no-undef": 0,
+    "no-const-assign": 0,
+    "no-dupe-class-members": 2
   }
 }
