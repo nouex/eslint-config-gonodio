@@ -49,6 +49,7 @@
     "no-delete-var": 1,
     "no-undef": 0,
     "no-const-assign": 0,
-    "no-dupe-class-members": 2
+    "no-dupe-class-members": 2,
+    "strict": 2
   }
 }
