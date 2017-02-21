@@ -32,6 +32,7 @@
       "let": "always",
       "const": "always"
       }],
+    "one-var-declaration-per-line": [2, "initializations"],
     "arrow-parens": 0,
     "constructor-super": 1,
     "generator-star-spacing": [2, "before"],
