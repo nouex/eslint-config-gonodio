@@ -28,9 +28,9 @@
     "no-array-constructor": 1,
     "no-new-object": 1,
     "one-var": [2, {
-      "var": "never",
-      "let": "never",
-      "const": "never"
+      "var": "always",
+      "let": "always",
+      "const": "always"
       }],
     "arrow-parens": 0,
     "constructor-super": 1,
